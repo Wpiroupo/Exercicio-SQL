@@ -1,5 +1,5 @@
 # Exercício: Queries em SQL 
-Imagine uma base de dados de uma universidade que contenha as seguintes tabelas e seus respectivos campos organizados da seguinte forma:
+Imagine uma base de dados de uma universidade que contenha as seguintes tabelas e seus respectivos campos organizados da seguinte forma:/t
 tabela_alunos → colunas = (ra, nome, endereco, cidade); 
 tabela_disciplinas → colunas = (cod_disc, nome_disc, carga_hor) 
 tabela_professores → colunas = (cod_prof, nome, endereco, cidade) 
