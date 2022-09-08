@@ -1,0 +1,13 @@
+#A)
+  SELECT COUNT(h.ra)
+  FROM tabela_historico AS h
+  INNER JOIN tabela_disciplinas AS d
+  ON h.cod_disc = d.cod_disc
+  WHERE d.nome_disc = 'Banco de Dados' AND h.ano = '2019' OR h.ano '2020'
+
+#B)
+	SELECT a.nome
+  FROM tabela_historico AS h
+  INNER JOIN tabela_alunos AS a
+  ON h.ra = a.ra
+  WHERE h.nota <= 6
